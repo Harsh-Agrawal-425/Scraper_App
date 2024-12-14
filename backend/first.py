@@ -173,7 +173,7 @@ def get_google_reviews(site_link):
         # Otherwise, update the last_review_count and continue scrolling
         last_review_count = new_review_count
     
-    location = browser.find_element(By.CLASS_NAME, 'Lhccdd').find_element(By.TAG_NAME, 'div').text,
+    location = browser.find_element(By.CLASS_NAME, 'Lhccdd').find_element(By.TAG_NAME, 'div').text
     location=clean_filename(location)
     # Continue with review scraping
     reviews = []
