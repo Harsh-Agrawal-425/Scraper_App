@@ -6,66 +6,46 @@ Scrapper App is a Python web application designed to extract data from TripAdvis
 
 ## Installation
 
-### Backend
+### Automatic Installation
 
-Navigate to the `backend` directory and install the required Python packages using the following command:
-```
-cd backend
-```
-```
-pip install -r requirements.txt
-```
+#### For macOS Systems
 
-Ensure you have Python & pip installed on your system.
+1. Clone the repository into the `Downloads` folder of your system.
+2. Open the terminal and navigate to the `Scrapper_App` directory:
+   ```
+   cd ~/Downloads/Scrapper_App
+   ```
+3. Run the installation script:
+   ```
+   ./mac_install.sh
+   ```
+4. Allow the necessary permissions if prompted.
+5. Wait for the setup to complete. The application will open automatically.
 
-The following packages will be installed:
+#### For Windows Systems
 
-- beautifulsoup4==4.12.3
-- Flask==3.0.3
-- Flask_Cors==4.0.1
-- Flask_SocketIO==5.3.6
-- ipython==8.12.3
-- pandas==2.2.2
-- Requests==2.31.0
+1. Clone the repository into the `Downloads` folder of your system.
+2. Open a terminal (or command prompt) and navigate to the `Scrapper_App` directory:
+   ```
+   cd %USERPROFILE%\Downloads\Scrapper_App
+   ```
+3. Run the installation script:
+   ```
+   python windows_install.py
+   ```
+4. Allow the necessary permissions if prompted.
+5. Wait for the setup to complete. The application will open automatically.
 
-### Frontend
-
-Navigate to the `frontend` directory in a new terminal and install the required Node.js packages using npm:
-```
-cd frontend
-```
-```
-npm i --legacy-peer-deps
-```
-
-## Usage
-
-### Backend
-
-1. Navigate to the `backend` directory.
-2. Run the Flask server using the following command:
-
-```
-python first.py
-```
-
-The server will start running on `http://localhost:5000`.
-
-### Frontend
-
-1. Navigate to the `frontend` directory.
-2. Start the development server using the following command:
-
-```
-npm start
-```
 
 The application will be accessible in your web browser at `http://localhost:3000`.
 
+In case of Issues please contact : harshag22@iitk.ac.in (Harsh) or premk22@iitk.ac.in(Prem)
+
 ## Contributors
 
-- Arshit
 - Harsh Agrawal
-- Naman Kumar Jaiswal
 - Prem Kansagra
+- Naman Kumar Jaiswal
+- Arshit
 - Raj Vinayak Meena
+
